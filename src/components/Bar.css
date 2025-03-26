@@ -1,0 +1,32 @@
+.bar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background-color: white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    gap: 20px;
+
+}
+
+a{
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    background-color: #6a88bd;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+    transition: 200ms;
+
+}
+
+a:hover {
+    color: white;
+    background-color: #456598;
+
+}
